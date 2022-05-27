@@ -11,7 +11,7 @@ spec:
   project: default
   source:
     path: ./demo/artifacts/default-app
-    repoURL: https://github.com/flux-subsystem-argo/flamingo
+    repoURL: https://github.com/drazul/flamingo-test
     targetRevision: main
   syncPolicy:
     syncOptions:
@@ -30,7 +30,7 @@ spec:
   project: default
   source:
     path: ./demo/artifacts/fsa-installation
-    repoURL: https://github.com/flux-subsystem-argo/flamingo
+    repoURL: https://github.com/drazul/flamingo-test
     targetRevision: main
   syncPolicy:
     syncOptions:
